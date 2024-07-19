@@ -4,7 +4,6 @@ const RecoilPage = () => {
   return (
     <>
       <RecoilTester />;
-      <RecoilTester />;
     </>
   );
 };
