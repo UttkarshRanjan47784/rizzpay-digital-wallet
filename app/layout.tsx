@@ -3,6 +3,8 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme/theme-provider";
 import RecoilContextProvider from "@/components/store/recoil-context-provider";
+import { AuthNavbar } from "@/components/navbar/auth-navbar";
+import { Footer } from "@/components/footer/footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -27,7 +29,9 @@ export default function RootLayout({
             enableSystem
             disableTransitionOnChange
           >
+            <AuthNavbar />
             {children}
+            <Footer />
           </ThemeProvider>
         </RecoilContextProvider>
       </body>
