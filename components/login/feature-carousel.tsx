@@ -66,7 +66,7 @@ const FeatureCarousel = () => {
                       <Image
                         alt="contact img"
                         src={feature.imageURL}
-                        layout="fill"
+                        fill
                         objectFit="cover"
                         className="rounded-lg"
                       />

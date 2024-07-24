@@ -1,18 +1,8 @@
-import { ParticleBackground } from "@/components/background/particle-background";
-import { FeatureCarousel } from "@/components/login/feature-carousel";
-import { LoginForm } from "@/components/login/login-form";
-
 export default function Home() {
   const navbarHeight = "56px";
   return (
-    <main className={`bg-[#f1f3f5] dark:bg-[#050610] min-h-[calc(100vh-56px)]`}>
-      <ParticleBackground navbarHeight={navbarHeight}>
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-3 min-h-full ">
-          <FeatureCarousel />
-          <LoginForm />
-        </div>
-        {/* <p>Hemlo</p> */}
-      </ParticleBackground>
-    </main>
+    <main
+      className={`bg-[#f1f3f5] dark:bg-[#050610] min-h-[calc(100vh-56px)]`}
+    ></main>
   );
 }
