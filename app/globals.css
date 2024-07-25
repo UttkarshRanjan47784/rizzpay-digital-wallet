@@ -4,7 +4,9 @@
 
 @layer base {
   :root {
-    --navbar: 127 80% 30%;
+    --navbar: 204 3% 84%;
+    --footer: 204 3% 84%;
+    --footer-text: 204 0% 20%;
     --background: 0 0% 100%;
     --foreground: 240 10% 3.9%;
     --card: 0 0% 100%;
@@ -28,7 +30,9 @@
   }
 
   .dark {
-    --navbar: 227 50% 42%;
+    --navbar: 237 67% 13%;
+    --footer: 237 67% 13%;
+    --footer-text: 204 4% 70%;
     --background: 240 10% 3.9%;
     --foreground: 0 0% 98%;
     --card: 240 10% 3.9%;

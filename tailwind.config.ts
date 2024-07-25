@@ -19,10 +19,14 @@ const config = {
     },
     extend: {
       colors: {
+        navbar: "hsl(var(--navbar))",
+        footer: {
+          DEFAULT: "hsl(var(--footer))",
+          text: "hsl(var(--footer-text))",
+        },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
-        navbar: "hsl(var(--navbar))",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         primary: {
